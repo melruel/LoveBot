@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Fe Fi Fo Fum..good day..", "Good to see you again my precious", "Hi there, looking for some guidance?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Until we meet again..", "Get out!!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I must not say..", "Old enough to know more than you."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Lovebot", "I'm Lovebot", "I'm hueRotation aka Lovebot."],
+         "context_set": ""
+        },
+        {"tag": "miss",
+         "patterns": ["Should I text them?", "I miss him.", "what do you reccommend?", "Does he miss me?"],
+         "responses": ["Does it look like they miss you back? NO", "..You're better than this.."],
+         "context_set": ""
+        },
+        {"tag": "love",
+         "patterns": ["when will I meet my soulmate?", "Will love find me?", "Why doesn't anyone love me?"],
+         "responses": ["One must be patient.", "Love? who needs it..", "Sweetie, you've already met your soulmate..", "You are hopeless...sorry..."],
+         "context_set": ""
+        }
+   ]
+}
